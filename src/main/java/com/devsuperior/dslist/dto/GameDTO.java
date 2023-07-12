@@ -7,7 +7,6 @@ import com.devsuperior.dslist.entities.Game;
 public class GameDTO {
 
 	private Long id;
-	private String title;
 	private Integer year;
 	private String genre;
 	private String platforms;
@@ -28,13 +27,7 @@ public class GameDTO {
 		this.id = id;
 	}
 
-	public String getTitle() {
-		return title;
-	}
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
 
 	public Integer getYear() {
 		return year;
